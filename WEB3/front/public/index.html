@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Voevodin Ilya">
+  <meta name="generator" content="Hugo 0.80.0">
+  <title>VBlog</title>
+  <!-- Icon -->
+  <link rel="shortcut icon" href="../register/logo/favicon (1).ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="blog.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+    <header class="blog-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-4 text-center">
+          <a class="blog-header-logo text-dark" href="./info/info.html">VoevodinBlog</a>
+        </div>
+        <div class="col-4 d-flex justify-content-end align-items-sm-center">
+          <a class="btn btn-sm btn-outline-primary" href="./profile/profile.html">Profile</a>
+          <a class="btn btn-sm btn-outline-secondary" href="./sign-in/sign-in.html">Log out</a>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+        <div class="position-sticky pt-3">
+          <ul class="nav flex-column">
+            <h1 class="pb-4 mb-4 times new roman border-bottom">Account info</h1>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span data-feather="Email"></span>
+                Email
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span data-feather="Username"></span>
+                Username
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary">World</strong>
+              <h3 class="mb-0">Featured post</h3>
+              <div class="mb-1 text-muted">Nov 12</div>
+              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to
+                additional content.</p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                  dy=".3em">Thumbnail</text>
+              </svg>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success">Design</strong>
+              <h3 class="mb-0">Post title</h3>
+              <div class="mb-1 text-muted">Nov 11</div>
+              <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
+                content.</p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
+                aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
+                  dy=".3em">Thumbnail</text>
+              </svg>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="app"></div>
+      <!-- 
+      <div class="row">
+        <div class="col-md-8">
+          <h3 class="pb-4 mb-4 fst-italic border-bottom">
+            Feed
+          </h3>
+          <div id="app">
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-4">
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search by title" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+
+            <h4 class="fst-italic">Title:</h4>
+            <input class="form-control me-2" type="search" placeholder="title" id="title">
+
+            <h4 class="fst-italic">Text:</h4>
+            <input class="form-control me-2" type="search" placeholder="text" id="text">
+
+
+
+            <button class="btn btn-outline-primary mt-3" id="new">Create new post</button>
+          </div>
+
+
+          <div class="p-4">
+            <h4 class="fst-italic">Contacts</h4>
+            <ol class="list-unstyled">
+              <li><a href="https://github.com/IlyaVoevodin/web1">GitHub</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ol>
+          </div>
+        </div>
+
+      </div> -->
+
+    </main><!-- /.container -->
+  </div>
+
+  <footer class="blog-footer">
+    <p>Blog built on <a href="https://getbootstrap.com/">Bootstrap</a> by <a
+        href="https://twitter.com/mdo">@VoevodinIlya</a>.</p>
+    <p>
+      <a href="#">Back to top</a>
+    </p>
+  </footer>
+  <!-- <script src="./js/main.js" type="module"></script> -->
+</body>
+
+</html>

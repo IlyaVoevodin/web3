@@ -1,0 +1,23 @@
+{
+    "name": "lab3_backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "serve": "nodemon index.js",
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "sequelize": "^6.6.2",
+        "sqlite3": "^5.0.2"
+    },
+    "type": "commonjs",
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
